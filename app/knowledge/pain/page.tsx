@@ -216,6 +216,31 @@ export default function PainPage() {
           </div>
         </div>
       </section>
+
+      {/* Related */}
+      <section className="py-12 bg-[#F0F9FF]">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-xl font-bold text-gray-900 mb-4">関連記事</h2>
+          <div className="grid sm:grid-cols-2 gap-4">
+            <Link href="/knowledge/regret/" className="block bg-white rounded-xl p-4 border border-gray-100 hover:shadow-md transition-shadow">
+              <p className="font-medium text-gray-900">ホワイトニングで後悔する人の特徴</p>
+              <p className="text-xs text-gray-500 mt-1">痛みで後悔しないための事前知識</p>
+            </Link>
+            <Link href="/knowledge/no-effect/" className="block bg-white rounded-xl p-4 border border-gray-100 hover:shadow-md transition-shadow">
+              <p className="font-medium text-gray-900">ホワイトニングの効果がない原因</p>
+              <p className="text-xs text-gray-500 mt-1">効果を最大化するポイントを解説</p>
+            </Link>
+            <Link href="/knowledge/after-stop/" className="block bg-white rounded-xl p-4 border border-gray-100 hover:shadow-md transition-shadow">
+              <p className="font-medium text-gray-900">ホワイトニングをやめたら戻る？</p>
+              <p className="text-xs text-gray-500 mt-1">持続期間とメンテナンス方法</p>
+            </Link>
+            <Link href="/compare/types/" className="block bg-white rounded-xl p-4 border border-gray-100 hover:shadow-md transition-shadow">
+              <p className="font-medium text-gray-900">ホワイトニングの種類を比較</p>
+              <p className="text-xs text-gray-500 mt-1">痛みの少ない方式を見つける</p>
+            </Link>
+          </div>
+        </div>
+      </section>
     </>
   );
 }

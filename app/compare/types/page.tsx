@@ -235,6 +235,31 @@ export default function TypesPage() {
           </div>
         </div>
       </section>
+
+      {/* Related */}
+      <section className="py-12 bg-white">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-xl font-bold text-gray-900 mb-4">関連記事</h2>
+          <div className="grid sm:grid-cols-2 gap-4">
+            <Link href="/purpose/wedding/" className="block bg-[#F0F9FF] rounded-xl p-4 border border-sky-100 hover:shadow-md transition-shadow">
+              <p className="font-medium text-gray-900">ブライダルホワイトニング完全ガイド</p>
+              <p className="text-xs text-gray-500 mt-1">結婚式前に最適な方式を解説</p>
+            </Link>
+            <Link href="/knowledge/after-stop/" className="block bg-[#F0F9FF] rounded-xl p-4 border border-sky-100 hover:shadow-md transition-shadow">
+              <p className="font-medium text-gray-900">ホワイトニングをやめたら戻る？</p>
+              <p className="text-xs text-gray-500 mt-1">方式別の効果持続期間を比較</p>
+            </Link>
+            <Link href="/knowledge/toothpaste/" className="block bg-[#F0F9FF] rounded-xl p-4 border border-sky-100 hover:shadow-md transition-shadow">
+              <p className="font-medium text-gray-900">ホワイトニング歯磨き粉おすすめ5選</p>
+              <p className="text-xs text-gray-500 mt-1">自宅でできるケア方法</p>
+            </Link>
+            <Link href="/area/osaka/" className="block bg-[#F0F9FF] rounded-xl p-4 border border-sky-100 hover:shadow-md transition-shadow">
+              <p className="font-medium text-gray-900">大阪でおすすめのホワイトニング6選</p>
+              <p className="text-xs text-gray-500 mt-1">関西エリアの人気サロン</p>
+            </Link>
+          </div>
+        </div>
+      </section>
     </>
   );
 }

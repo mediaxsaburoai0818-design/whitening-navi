@@ -278,6 +278,31 @@ export default function FoodPage() {
           </div>
         </div>
       </section>
+
+      {/* Related */}
+      <section className="py-12 bg-white">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-xl font-bold text-gray-900 mb-4">関連記事</h2>
+          <div className="grid sm:grid-cols-2 gap-4">
+            <Link href="/knowledge/after-stop/" className="block bg-[#F0F9FF] rounded-xl p-4 border border-sky-100 hover:shadow-md transition-shadow">
+              <p className="font-medium text-gray-900">ホワイトニングをやめたら戻る？</p>
+              <p className="text-xs text-gray-500 mt-1">食事制限と色戻りの関係を解説</p>
+            </Link>
+            <Link href="/knowledge/toothpaste/" className="block bg-[#F0F9FF] rounded-xl p-4 border border-sky-100 hover:shadow-md transition-shadow">
+              <p className="font-medium text-gray-900">ホワイトニング歯磨き粉おすすめ5選</p>
+              <p className="text-xs text-gray-500 mt-1">自宅ケアで着色を防ぐ方法</p>
+            </Link>
+            <Link href="/purpose/wedding/" className="block bg-[#F0F9FF] rounded-xl p-4 border border-sky-100 hover:shadow-md transition-shadow">
+              <p className="font-medium text-gray-900">ブライダルホワイトニング完全ガイド</p>
+              <p className="text-xs text-gray-500 mt-1">結婚式前の食事管理のポイント</p>
+            </Link>
+            <Link href="/knowledge/regret/" className="block bg-[#F0F9FF] rounded-xl p-4 border border-sky-100 hover:shadow-md transition-shadow">
+              <p className="font-medium text-gray-900">ホワイトニングで後悔する人の特徴</p>
+              <p className="text-xs text-gray-500 mt-1">食事制限を知らずに後悔しないために</p>
+            </Link>
+          </div>
+        </div>
+      </section>
     </>
   );
 }

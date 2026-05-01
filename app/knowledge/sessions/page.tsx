@@ -227,6 +227,31 @@ export default function SessionsPage() {
           </div>
         </div>
       </section>
+
+      {/* Related */}
+      <section className="py-12 bg-[#F0F9FF]">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-xl font-bold text-gray-900 mb-4">関連記事</h2>
+          <div className="grid sm:grid-cols-2 gap-4">
+            <Link href="/knowledge/after-stop/" className="block bg-white rounded-xl p-4 border border-gray-100 hover:shadow-md transition-shadow">
+              <p className="font-medium text-gray-900">ホワイトニングをやめたら戻る？</p>
+              <p className="text-xs text-gray-500 mt-1">持続期間とメンテナンスの頻度</p>
+            </Link>
+            <Link href="/knowledge/no-effect/" className="block bg-white rounded-xl p-4 border border-gray-100 hover:shadow-md transition-shadow">
+              <p className="font-medium text-gray-900">ホワイトニングの効果がない原因</p>
+              <p className="text-xs text-gray-500 mt-1">回数を重ねても白くならない場合の対策</p>
+            </Link>
+            <Link href="/purpose/wedding/" className="block bg-white rounded-xl p-4 border border-gray-100 hover:shadow-md transition-shadow">
+              <p className="font-medium text-gray-900">ブライダルホワイトニング完全ガイド</p>
+              <p className="text-xs text-gray-500 mt-1">結婚式までの回数とスケジュール</p>
+            </Link>
+            <Link href="/compare/types/" className="block bg-white rounded-xl p-4 border border-gray-100 hover:shadow-md transition-shadow">
+              <p className="font-medium text-gray-900">ホワイトニングの種類を比較</p>
+              <p className="text-xs text-gray-500 mt-1">方式別の必要回数の違い</p>
+            </Link>
+          </div>
+        </div>
+      </section>
     </>
   );
 }

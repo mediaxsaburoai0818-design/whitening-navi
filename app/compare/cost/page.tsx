@@ -255,6 +255,31 @@ export default function CostPage() {
           </div>
         </div>
       </section>
+
+      {/* Related */}
+      <section className="py-12 bg-white">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-xl font-bold text-gray-900 mb-4">関連記事</h2>
+          <div className="grid sm:grid-cols-2 gap-4">
+            <Link href="/purpose/student/" className="block bg-[#F0F9FF] rounded-xl p-4 border border-sky-100 hover:shadow-md transition-shadow">
+              <p className="font-medium text-gray-900">学生向けホワイトニング</p>
+              <p className="text-xs text-gray-500 mt-1">月1万円以下で通えるプラン</p>
+            </Link>
+            <Link href="/area/tokyo/" className="block bg-[#F0F9FF] rounded-xl p-4 border border-sky-100 hover:shadow-md transition-shadow">
+              <p className="font-medium text-gray-900">東京でおすすめのホワイトニング8選</p>
+              <p className="text-xs text-gray-500 mt-1">エリア別の料金比較あり</p>
+            </Link>
+            <Link href="/knowledge/toothpaste/" className="block bg-[#F0F9FF] rounded-xl p-4 border border-sky-100 hover:shadow-md transition-shadow">
+              <p className="font-medium text-gray-900">ホワイトニング歯磨き粉おすすめ5選</p>
+              <p className="text-xs text-gray-500 mt-1">サロンに通わず自宅ケアする場合</p>
+            </Link>
+            <Link href="/knowledge/after-stop/" className="block bg-[#F0F9FF] rounded-xl p-4 border border-sky-100 hover:shadow-md transition-shadow">
+              <p className="font-medium text-gray-900">ホワイトニングをやめたら戻る？</p>
+              <p className="text-xs text-gray-500 mt-1">メンテナンス費用も考慮した選び方</p>
+            </Link>
+          </div>
+        </div>
+      </section>
     </>
   );
 }

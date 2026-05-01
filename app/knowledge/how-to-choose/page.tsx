@@ -263,6 +263,31 @@ export default function HowToChoosePage() {
           </div>
         </div>
       </section>
+
+      {/* Related */}
+      <section className="py-12 bg-white">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-xl font-bold text-gray-900 mb-4">関連記事</h2>
+          <div className="grid sm:grid-cols-2 gap-4">
+            <Link href="/area/tokyo/" className="block bg-[#F0F9FF] rounded-xl p-4 border border-sky-100 hover:shadow-md transition-shadow">
+              <p className="font-medium text-gray-900">東京でおすすめのホワイトニング8選</p>
+              <p className="text-xs text-gray-500 mt-1">エリア別に厳選サロンを紹介</p>
+            </Link>
+            <Link href="/purpose/mens/" className="block bg-[#F0F9FF] rounded-xl p-4 border border-sky-100 hover:shadow-md transition-shadow">
+              <p className="font-medium text-gray-900">メンズホワイトニングおすすめ</p>
+              <p className="text-xs text-gray-500 mt-1">男性向けの選び方ガイド</p>
+            </Link>
+            <Link href="/purpose/student/" className="block bg-[#F0F9FF] rounded-xl p-4 border border-sky-100 hover:shadow-md transition-shadow">
+              <p className="font-medium text-gray-900">学生向けホワイトニング</p>
+              <p className="text-xs text-gray-500 mt-1">予算で選ぶコスパ重視の選び方</p>
+            </Link>
+            <Link href="/knowledge/no-effect/" className="block bg-[#F0F9FF] rounded-xl p-4 border border-sky-100 hover:shadow-md transition-shadow">
+              <p className="font-medium text-gray-900">ホワイトニングの効果がない原因</p>
+              <p className="text-xs text-gray-500 mt-1">選び方を間違えないための知識</p>
+            </Link>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
